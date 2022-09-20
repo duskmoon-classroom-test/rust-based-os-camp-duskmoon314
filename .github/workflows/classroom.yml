@@ -8,7 +8,7 @@ on:
 
 jobs:
   test:
-    name: AutoGrading
+    name: Autograding
     runs-on: ubuntu-latest
     outputs:
       details: ${{ steps.autograding.outputs.details }}
